@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,7 +12,7 @@
         <input type="password" name="password" required><br><br>
         <input type="submit" value="Login">
     </form>
-    
+
     <h2>Register</h2>
     <form action="register.php" method="POST">
         <label>Username:</label>
