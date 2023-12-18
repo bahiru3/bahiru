@@ -2,9 +2,10 @@
 <html>
     
     <head >
-<title>BootStrap Project</title>
+       <title>BootStrap Project</title>
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/style.css">
+<!-- <script src="js/jsvalidation.js"></script> -->
 <link rel="stylesheet" type="text/css" href="css/styles.css">
     </head>
    
@@ -68,7 +69,7 @@
                     <div class="form-group">
                         <textarea class="form-control" rows="4"></textarea>
                     </div>
-                    <input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
+                    <input type="submit" class="btn btn-secondary btn-block" value="Send" name ="" id="bahiru">
                     
                 </div>
                 
@@ -133,9 +134,27 @@
             <div>
             <div class="footer-copyright text-center">© 2023 Copyright: MyWebsite.com</div>
         </footer>
+<script>
+    function clicklisner(){
+console.log('button click')
+    }
+    let bahiru=document.querSelector('#bahiru');
+// let messge=document.querSelector(messge);
+// let emailText=email;
+//  let messgeText=messge;
+ 
+//  console.log(submit-button);
+
+     
+        bahiru.addEventLisner('click',clicklisner);
+        function clicklisner(event){
+            event.preventDefault();
+            console.log(submit-button);
+        }
         
-             
-        
-        
+bahiru.addEventLisner('click',clicklisner);
+
+</script>
+      
     </body>
 </html>
