@@ -1,11 +1,8 @@
 <?php
  
-$name = "Krishna";
-$name1 = "Bahireu";
-echo "The name of the Proffessional is $name \n";
-echo 'The name of the Proffessional is $name1 ';
-echo "\n\n";
+if(TRUE)
+    echo "This condition is TRUE";
+if(FALSE)
+    echo "This condition is not TRUE";
  
-//returns data type, size and value
-var_dump($name,
 ?>
