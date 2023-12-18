@@ -1,11 +1,17 @@
 <?php
-  $x = array("k" => "Car", "l" => "Bike");
-  $y = array("a" => "Train", "b" => "Plane");
+  $x = 2;
+  echo ++$x, " First increments then prints \n";
+  echo $x, "\n";
  
-  var_dump($x + $y);
-  var_dump($x == $y) + "\n";
-  var_dump($x != $y) + "\n";
-  var_dump($x <> $y) + "\n";
-  var_dump($x === $y) + "\n";
-  var_dump($x !== $y) + "\n";
+  $x = 2;
+  echo $x++, " First prints then increments \n";
+  echo $x, "\n";
+ 
+  $x = 2;
+  echo --$x, " First decrements then prints \n";
+  echo $x, "\n";
+ 
+  $x = 2;
+  echo $x--, " First prints then decrements \n";
+  echo $x;
 ?>
