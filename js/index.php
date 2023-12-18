@@ -1,5 +1,5 @@
 <?php
   
-echo strrepeat("Hello Proffessionals!");
+echo strripos("Hello Proffessionals!");
   
 ?>
