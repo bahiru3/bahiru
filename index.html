@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/style.css">
 <!-- <script src="js/jsvalidation.js"></script> -->
-<link rel="stylesheet" type="text/css" href="css/styles.css">
+<!-- <link rel="stylesheet" type="text/css" href="css/styles.css"> -->
     </head>
    
     
@@ -69,7 +69,7 @@
                     <div class="form-group">
                         <textarea class="form-control" rows="4"></textarea>
                     </div>
-                    <input type="submit" class="btn btn-secondary btn-block" value="Send" name ="" id="bahiru">
+                    <input type="submit" class="btn btn-secondary btn-block" value="Send" name ="" id="button">
                     
                 </div>
                 
@@ -136,9 +136,9 @@
         </footer>
 <script>
     function clicklisner(){
-console.log('button click')
+// console.log('button click')
     }
-    let bahiru=document.querSelector('#bahiru');
+    let button=document.querySelector('#button');
 // let messge=document.querSelector(messge);
 // let emailText=email;
 //  let messgeText=messge;
@@ -146,13 +146,13 @@ console.log('button click')
 //  console.log(submit-button);
 
      
-        bahiru.addEventLisner('click',clicklisner);
-        function clicklisner(event){
+button.addEventListener('click',clicklistener);
+        function clicklistener(event){
             event.preventDefault();
-            console.log(submit-button);
+            console.log('submit_button');
         }
         
-bahiru.addEventLisner('click',clicklisner);
+        button.addEventListener('click',clicklistener);
 
 </script>
       
